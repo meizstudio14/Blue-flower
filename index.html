@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Neelmoni 💙</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(180deg,#e6f2ff,#f5fbff);
+    font-family:"Poppins", sans-serif;
+    overflow:hidden;
+}
+
+/* Card */
+.card{
+    text-align:center;
+    background:white;
+    padding:45px;
+    border-radius:22px;
+    box-shadow:0 12px 35px rgba(0,0,0,0.12);
+    animation:float 4s ease-in-out infinite;
+    max-width:420px;
+}
+
+h1{
+    color:#3b82f6;
+    margin-bottom:12px;
+}
+
+p{
+    color:#555;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.signature{
+    margin-top:20px;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+/* Floating animation */
+@keyframes float{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-12px);}
+}
+
+/* Flower garden */
+.garden{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+/* Blue Flower */
+.flower-plant{
+    position:relative;
+    width:24px;
+    height:130px;
+    animation:sway 3s ease-in-out infinite;
+}
+
+.stem{
+    position:absolute;
+    bottom:0;
+    left:11px;
+    width:3px;
+    height:85px;
+    background:#2f9e44;
+}
+
+.leaf{
+    position:absolute;
+    bottom:45px;
+    width:28px;
+    height:16px;
+    background:#2f9e44;
+    border-radius:20px 0;
+    transform:rotate(-30deg);
+}
+
+.leaf.right{
+    left:-12px;
+    transform:rotate(30deg);
+}
+
+/* Blue petals */
+.flower{
+    position:absolute;
+    bottom:80px;
+    left:-6px;
+    width:36px;
+    height:36px;
+}
+
+.petal{
+    position:absolute;
+    width:18px;
+    height:18px;
+    background:#60a5fa;
+    border-radius:50%;
+}
+
+.p1{ top:0; left:9px; }
+.p2{ top:9px; left:0; }
+.p3{ top:9px; right:0; }
+.p4{ bottom:0; left:9px; }
+
+.center{
+    position:absolute;
+    top:11px;
+    left:11px;
+    width:14px;
+    height:14px;
+    background:#1d4ed8;
+    border-radius:50%;
+}
+
+@keyframes sway{
+    0%,100%{transform:rotate(-2deg);}
+    50%{transform:rotate(2deg);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>For Neelmoni 💙</h1>
+    <p>
+        Like blue flowers under a calm sky,
+        may your days be peaceful, bright,
+        and full of beautiful moments.
+        Thank you for being such a special friend ✨
+    </p>
+    <div class="signature">— With warmth & friendship</div>
+</div>
+
+<div class="garden">
+    <div class="flower-plant">
+        <div class="stem"></div>
+        <div class="leaf"></div>
+        <div class="leaf right"></div>
+        <div class="flower">
+            <div class="petal p1"></div>
+            <div class="petal p2"></div>
+            <div class="petal p3"></div>
+            <div class="petal p4"></div>
+            <div class="center"></div>
+        </div>
+    </div>
+
+    <div class="flower-plant" style="animation-delay:.5s">
+        <div class="stem"></div>
+        <div class="leaf"></div>
+        <div class="leaf right"></div>
+        <div class="flower">
+            <div class="petal p1"></div>
+            <div class="petal p2"></div>
+            <div class="petal p3"></div>
+            <div class="petal p4"></div>
+            <div class="center"></div>
+        </div>
+    </div>
+
+    <div class="flower-plant" style="animation-delay:1s">
+        <div class="stem"></div>
+        <div class="leaf"></div>
+        <div class="leaf right"></div>
+        <div class="flower">
+            <div class="petal p1"></div>
+            <div class="petal p2"></div>
+            <div class="petal p3"></div>
+            <div class="petal p4"></div>
+            <div class="center"></div>
+        </div>
+    </div>
+
+    <div class="flower-plant" style="animation-delay:1.5s">
+        <div class="stem"></div>
+        <div class="leaf"></div>
+        <div class="leaf right"></div>
+        <div class="flower">
+            <div class="petal p1"></div>
+            <div class="petal p2"></div>
+            <div class="petal p3"></div>
+            <div class="petal p4"></div>
+            <div class="center"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
